@@ -895,6 +895,7 @@ private: System::Windows::Forms::Panel^  fcgPNHideTabControlVideo;
 private: System::Windows::Forms::Panel^  fcgPNHideToolStripBorder;
 private: System::Windows::Forms::ToolStripSeparator^  toolStripSeparator1;
 private: System::Windows::Forms::ToolStripDropDownButton^  fcgTSLanguage;
+private: System::Windows::Forms::CheckBox^  fcgCBBenchmarkMode;
 
 
 
@@ -1304,6 +1305,7 @@ private: System::Windows::Forms::ToolStripDropDownButton^  fcgTSLanguage;
             this->fcgPNHideTabControlAudio = (gcnew System::Windows::Forms::Panel());
             this->fcgPNHideTabControlVideo = (gcnew System::Windows::Forms::Panel());
             this->fcgPNHideToolStripBorder = (gcnew System::Windows::Forms::Panel());
+            this->fcgCBBenchmarkMode = (gcnew System::Windows::Forms::CheckBox());
             this->fcgtabControlVideo->SuspendLayout();
             this->fcgtabPageX265Main->SuspendLayout();
             this->fcggroupBoxThread->SuspendLayout();
@@ -3469,6 +3471,7 @@ private: System::Windows::Forms::ToolStripDropDownButton^  fcgTSLanguage;
             // 
             // fcggroupBoxExSettings
             // 
+            this->fcggroupBoxExSettings->Controls->Add(this->fcgCBBenchmarkMode);
             this->fcggroupBoxExSettings->Controls->Add(this->fcgCBSetKeyframeAtChapter);
             this->fcggroupBoxExSettings->Controls->Add(this->fcgCBInputAsLW48);
             this->fcggroupBoxExSettings->Controls->Add(this->fcgCBCheckKeyframes);
@@ -4787,6 +4790,17 @@ private: System::Windows::Forms::ToolStripDropDownButton^  fcgTSLanguage;
             this->fcgPNHideToolStripBorder->Size = System::Drawing::Size(1020, 4);
             this->fcgPNHideToolStripBorder->TabIndex = 18;
             this->fcgPNHideToolStripBorder->Visible = false;
+            // 
+            // fcgCBBenchmarkMode
+            // 
+            this->fcgCBBenchmarkMode->AutoSize = true;
+            this->fcgCBBenchmarkMode->Location = System::Drawing::Point(18, 195);
+            this->fcgCBBenchmarkMode->Name = L"fcgCBBenchmarkMode";
+            this->fcgCBBenchmarkMode->Size = System::Drawing::Size(102, 18);
+            this->fcgCBBenchmarkMode->TabIndex = 7;
+            this->fcgCBBenchmarkMode->Tag = L"chValue";
+            this->fcgCBBenchmarkMode->Text = L"ベンチマークモード";
+            this->fcgCBBenchmarkMode->UseVisualStyleBackColor = true;
             // 
             // frmConfig
             // 
