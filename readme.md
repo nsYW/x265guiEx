@@ -220,15 +220,11 @@ x265guiEx.iniを書き換えることにより、音声エンコーダやmuxer�
 
 ## x265guiEx の Aviutl からの削除
 
-x265guiEx の Aviutl から削除するには、"plugins" フォルダ内の下記ファイルとフォルダを削除してください。
+x265guiEx を Aviutl/AviUtl2 から削除するには、プラグインフォルダの ```x265guiEx_uninstall.bat``` をダブルクリックして実行します。
 
-- [フォルダ] x265guiEx_stg
-- [ファイル] x265guiEx.auo
-- [ファイル] x265guiEx.conf (存在する場合のみ)
-- [ファイル] x265guiEx(.ini)
-- [ファイル] auo_setup.auf
+![削除](./data/x265guiEx_5_06_uninstall_20251228.webp)
 
-![削除](./data/x265guiEx_4_00_uninstall_01.png)
+上記画面が表示されたら、```y``` と入力し、削除を実行してください。
 
 ## 注意事項
 - 自動フィールドシフト使用上の制限  
